@@ -1,0 +1,72 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" Inherits="AdminMasterPage" Codebehind="AdminMasterPage.master.cs" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title></title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+	<!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"/>
+
+<!-- Optional theme -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css"/>
+
+<!-- Latest compiled and minified JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</head>
+<body>
+<!-- Header -->
+			<header id="header" style="background-color:black">
+				<div class="logo"><a href="Home.aspx">
+                    <img src="images/bannerlogo.png"/></a></div>
+				<a href="AdminLogedin.aspx"><asp:Label ID="lbladname" runat="server" /></a><a href="#menu">Menu</a>
+			</header>
+
+		<!-- Nav -->
+			<nav id="menu">
+				<ul class="links">
+					<li><a href="Home.aspx"><i class="icons fa fa-home"></i> Home</a></li>
+					<li><a href="AdminLogedin.aspx"><i class="icons fa fa-user"></i> Admin</a></li>
+					<li><a href="ProductMaster.aspx"><i class="icons fa fa-product-hunt"></i> Products</a></li>
+					<li><a href="CustomerReport.aspx"><i class="icons fa fa-bar-chart"></i>Customer Reports</a></li>
+					<li><a href="OrderSummary.aspx"><i class="icons fa fa-bar-chart"></i>Order Summary</a></li>
+                   <li><a href="adminlogout.aspx"><i class="icons fa fa-sign-out"></i> Logout</a></li> 
+
+				</ul>
+			</nav>
+
+
+        
+        
+    <!-- Footer -->
+    <p></p>
+    <p></p>
+    <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+
+        </asp:ContentPlaceHolder>
+
+			<footer id="footer">
+				<div class="container">
+					<ul class="icons">
+						<li><a href="#" class="icon fa-twitter"><span class="label">Twitter</span></a></li>
+						<li><a href="#" class="icon fa-facebook"><span class="label">Facebook</span></a></li>
+						<li><a href="#" class="icon fa-instagram"><span class="label">Instagram</span></a></li>
+						<li><a href="#" class="icon fa-envelope-o"><span class="label">Email</span></a></li>
+					</ul>
+				</div>
+				<div class="copyright">
+					&copy; Untitled. All rights reserved.
+				</div>
+			</footer>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.scrollex.min.js"></script>
+			<script src="assets/js/skel.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+</body>
+</html>

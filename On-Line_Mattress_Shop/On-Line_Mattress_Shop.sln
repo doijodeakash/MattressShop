@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31112.23
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "On-Line_Mattress_Shop", "On-Line_Mattress_Shop.csproj", "{9DF7C89C-53F5-40B7-8DC1-858FCABB6BC1}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9DF7C89C-53F5-40B7-8DC1-858FCABB6BC1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9DF7C89C-53F5-40B7-8DC1-858FCABB6BC1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9DF7C89C-53F5-40B7-8DC1-858FCABB6BC1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9DF7C89C-53F5-40B7-8DC1-858FCABB6BC1}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {0A512F77-5F56-40A0-ADC9-DA9D5EF574EB}
+	EndGlobalSection
+EndGlobal
